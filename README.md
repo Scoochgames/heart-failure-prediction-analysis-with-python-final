@@ -11,7 +11,7 @@ Because of this I will be dropping the rows with 0's in incorrect places.
 There was 172 rows with 0's that didn't make sense. 172 is a good chunk of the original 918 but dropping the entire rows is a method that is justifiable.
 
 ## Plots
-All plots will be attached to the main project as ____.pdf under the folder 'plots'
+All plots will be attached to the main project as ____.png under the folder 'plots'
 
 The first chart I made is a scatter plot, which most the time does not require any data aggregation or sorting.
 It was a comparison between age and cholesterol levels. The r-value is 0.05875823535807384, this is a very weak positive correlation.
