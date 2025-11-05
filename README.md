@@ -13,5 +13,8 @@ There was 172 rows with 0's that didn't make sense. 172 is a good chunk of the o
 ## Plots
 All plots will be attached to the main project as ____.png under the folder 'plots'
 
-The first chart I made is a scatter plot, which most the time does not require any data aggregation or sorting.
-It was a comparison between age and cholesterol levels. The r-value is 0.05875823535807384, this is a very weak positive correlation.
+I used aggregation to change the raw ST_Slope counts into percentages. The resulting bar plot immediately shows the percentage of people who received a heart disease diagnosis for each ST-Slope category, which gives a direct view of the risk.
+
+For the second plot, I used a kdeplot (density plot) to see where most patients fall based on Maximum Heart Rate. Setting hue='HeartDisease' creates two separate curves on the same plot, and you can immediately tell that people with heart disease tend to have a lower peak heart rate compared to healthy people.
+
+I used this code to make a scatter plot of patient Age against Cholesterol. The plot uses different colors and shapes to mark patients based on their Heart Disease status. The goal is to see if Age and Cholesterol levels alone cause the 'Heart Disease' and 'No Heart Disease' groups to visually separate or cluster.
